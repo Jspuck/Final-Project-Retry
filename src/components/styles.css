@@ -1,0 +1,101 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #0077cc;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Main content area */
+main {
+    margin-top: 20px;
+}
+
+/* Post list styles */
+.posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.posts-list li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.posts-list a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.posts-list h3 {
+    margin-top: 0;
+}
+
+/* Single post styles */
+.post {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post h1 {
+    color: #333;
+}
+
+/* Forms and inputs */
+form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005fa3;
+}
+
+/* Utility classes */
+.hidden {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header, .post, form {
+        padding: 10px;
+    }
+}
