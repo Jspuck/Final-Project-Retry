@@ -1,6 +1,7 @@
 // src/components/PostsList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { formatDistanceToNow } from 'date-fns'; // Make sure to install date-fns if not already installed
 import { supabase } from '../supabaseClient';  // Adjust the import path as needed
 
 function PostsList() {
@@ -31,6 +32,8 @@ function PostsList() {
                         <h3>{post.title}</h3>
                     </Link>
                     <p>{post.content}</p>
+                    <p><small>Posted {formatDistanceToNow(new Date(post.created_at))} ago</small></p>
+                    <Link to={`/post/${post.id}/comments`}>View Comments</Link>
                 </div>
             ))}
         </div>
