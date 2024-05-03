@@ -56,7 +56,7 @@ The following **additional** features are implemented:
 
 [Here's a walkthrough of implemented user stories:](https://drive.google.com/file/d/1MF3jkvdF-bAEFGWsMYTgdMRoFgPXpMW9/view?usp=sharing)
 
-resonant-kashata-0b09f0.netlify.app
+
 
 
 
@@ -66,10 +66,11 @@ resonant-kashata-0b09f0.netlify.app
 ## Notes
 
 Describe any challenges encountered while building the app.
+One significant challenge I encountered during the development of the car forum site was implementing real-time data synchronization across the user interface whenever a post was added, updated, or deleted. The goal was to ensure that all users viewing the site would see updates immediately without needing to manually refresh their browsers.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Jarett Spuck]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
